@@ -1,0 +1,17 @@
+{
+  "name": "pino-wrapper-logger",
+  "version": "1.0.0",
+  "description": "Pino Wrapper Example",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "express": "^4.16.4",
+    "pino": "^5.10.6",
+    "pino-http": "^4.1.0"
+  }
+}
