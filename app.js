@@ -1,13 +1,12 @@
+import express from 'express';
+import LogOnRequest from './pino-wrapper';
 
-const express = require('express')
-const logOnRequest = require('./pino-wrapper')
-const app = express()
+const app = express();
 
-app.use(logOnRequest)
+app.use(LogOnRequest);
 
-app.get('/', (req, res)=>{
-    req.log.info('root url exposing hello')
-    res.send('Hello world')
+app.get('/', (req, res) => {
+    return res.send('Hello world again and again')
 })
 
-app.listen(3000)
+app.listen(5000);

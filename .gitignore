@@ -1,2 +1,11 @@
+# Dependency directories
 node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Dist directory
+dist/
+
+# Lock files
 package-lock.json
